@@ -19,7 +19,7 @@ fn max(max_val:i64, val:i64) -> i64{
 }
 
 fn min(min_val:i64, val:i64) -> i64{
-    return if val<min_val || min_val == 0{val} else {min_val};
+    return if val<min_val || min_val == 0 {val} else {min_val};
 }
 
 
